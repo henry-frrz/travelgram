@@ -1,0 +1,21 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+  font-size: 0.875rem;
+}
+
+footer ul {
+  display: flex;
+  gap: 1rem;
+}
+
+footer ul li {
+  padding: 0.25rem;
+  cursor: pointer;
+}
+
+footer ul li:hover {
+  color: var(--brand-color);
+}
